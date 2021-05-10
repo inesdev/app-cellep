@@ -30,7 +30,7 @@ class LoginActivity : AppCompatActivity() {
             } else {
                 // Acesso ao arquivo de preferências compartilhadas
                 val sharedPrefs = getSharedPreferences(
-                        "Cadastro $email",
+                        "Cadastro_$email",
                         Context.MODE_PRIVATE
                 )
                 // Recuperar os dados no arquivo através das chaves criadas
